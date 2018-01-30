@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[18 matching Source and Destination flights ]]>
+    </line>
+    <line>
+      <![CDATA[0 not matching Source and Destination flights ]]>
+    </line>
+    <line>
+      <![CDATA[3 matching Source and Destination flights ]]>
+    </line>
+    <line>
+      <![CDATA[5 not matching Source and Destination flights ]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="48220" started-at="2018-01-30T07:24:56Z" finished-at="2018-01-30T07:25:44Z">
+    <groups>
+    </groups>
+    <test name="Test_chrome" duration-ms="25096" started-at="2018-01-30T07:24:56Z" finished-at="2018-01-30T07:25:21Z">
+      <class name="pom.TestApp">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:pom.TestApp@146ba0ac]" name="openBrowser" is-config="true" duration-ms="17842" started-at="2018-01-30T12:54:56Z" finished-at="2018-01-30T12:55:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testApp()[pri:0, instance:pom.TestApp@146ba0ac]" name="testApp" duration-ms="6574" started-at="2018-01-30T12:55:14Z" finished-at="2018-01-30T12:55:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[18 matching Source and Destination flights ]]>
+            </line>
+            <line>
+              <![CDATA[0 not matching Source and Destination flights ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:pom.TestApp@146ba0ac]" name="closeBrowser" is-config="true" duration-ms="670" started-at="2018-01-30T12:55:20Z" finished-at="2018-01-30T12:55:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- pom.TestApp -->
+    </test> <!-- Test_chrome -->
+    <test name="Test_firefox" duration-ms="23109" started-at="2018-01-30T07:25:21Z" finished-at="2018-01-30T07:25:44Z">
+      <class name="pom.TestApp">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:pom.TestApp@6e1567f1]" name="openBrowser" is-config="true" duration-ms="16797" started-at="2018-01-30T12:55:21Z" finished-at="2018-01-30T12:55:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testApp()[pri:0, instance:pom.TestApp@6e1567f1]" name="testApp" duration-ms="5458" started-at="2018-01-30T12:55:38Z" finished-at="2018-01-30T12:55:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[3 matching Source and Destination flights ]]>
+            </line>
+            <line>
+              <![CDATA[5 not matching Source and Destination flights ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:pom.TestApp@6e1567f1]" name="closeBrowser" is-config="true" duration-ms="842" started-at="2018-01-30T12:55:43Z" finished-at="2018-01-30T12:55:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- pom.TestApp -->
+    </test> <!-- Test_firefox -->
+  </suite> <!-- Suite -->
+</testng-results>
