@@ -15,7 +15,7 @@ public class TestApp extends BaseClassTest {
 		home.clickOneWay();
 		home.enterFrom("Pune");
 		home.enterTo("Bangalore");
-		home.enterDateCalender("01/30/2018");
+		home.enterDateCalender("02/15/2018");
 		
 		SearchPage search=new SearchPage(driver);
 		search.verifySourceDestination("PNQ - BLR");
